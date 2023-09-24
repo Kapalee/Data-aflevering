@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MusicArtists</title>
+  </head>
+  <body>
+    <header>
+      <h1>Artify</h1>
+    </header>
+    <main>
+      <section id="users-grid" class="grid-container"></section>
+      <form id="form-create">
+        <h2>Create a new User</h2>
+        <input type="text" name="name" placeholder="Full name" required />
+        <input
+          type="text"
+          name="birthDate"
+          placeholder="birthdate"
+          required
+        />
+        <input type="url" name="image" placeholder="Paste image url" required />
+        <input type="text" name="activeSince" placeholder="Active since" required />
+        <select name="genres">
+<option value="pop">Pop </option>
+<option value="rap">Rap</option>
+<option value="country">Country </option>
+<option value="electronic"">Electronic</option>
+<option value="jazz">Jazz </option>
+<option value="rock">Rock</option>
+<option value="electropop">Electropop</option>
+        </select>
+        <input type="text" name="labels" placeholder="Label" required />
+        <input type="text" name="website" placeholder="Website" required />
+        <input type="text" name="shortDescription" placeholder="Short description" required />
+
+        <button>Create User</button>
+      </form>
+
+      <form id="form-update">
+        <h2>Update User</h2>
+ <input type="text" name="name" placeholder="Full name" required />
+        <input
+          type="text"
+          name="birthDate"
+          placeholder="birthdate"
+          required
+        />
+        <input type="url" name="image" placeholder="Paste image url" required />
+        <input type="text" name="activeSince" placeholder="Active since" required />
+        <select name="genres">
+<option value="pop">Pop </option>
+<option value="rap">Rap</option>
+<option value="country">Country </option>
+<option value="electronic"">Electronic</option>
+<option value="jazz">Jazz </option>
+<option value="rock">Rock</option>
+<option value="electropop">Electropop</option>
+        </select>
+        <input type="text" name="labels" placeholder="Label" required />
+        <input type="text" name="website" placeholder="Website" required />
+        <input type="text" name="shortDescription" placeholder="Short description" required />
+
+        <button>Update User</button>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
